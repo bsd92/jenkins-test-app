@@ -2,7 +2,7 @@
 FROM openjdk:21 as build
 WORKDIR /app
 COPY src ./src
-RUN javac src/Main.java -d .
+RUN javac src/main/java/org/example/Main.java -d .
 
 # Étape 2 : image d'exécution
 FROM openjdk:21
