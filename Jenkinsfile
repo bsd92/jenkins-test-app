@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Cloner le repository') {
+        stage('Cloner le repo') {
             steps {
                 echo 'Clonage du projet...'
                 checkout scm
