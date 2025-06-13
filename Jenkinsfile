@@ -46,3 +46,5 @@ pipeline {
         }
     }
 }
+12/062025
+Voir bien le Chemin car là on est déjà dans le backend
